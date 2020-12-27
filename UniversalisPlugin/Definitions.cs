@@ -32,7 +32,7 @@ namespace UniversalisPlugin
                 }
                 catch (WebException exc)
                 {
-                    throw new Exception("Could not get definitions for Universalis.", exc);
+                    throw new Exception("Could not get definitions for FFXIVMB ACT Plugin.", exc);
                 }
             }
         }
